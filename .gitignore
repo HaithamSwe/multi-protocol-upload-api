@@ -1,0 +1,40 @@
+# Go-related files
+*.exe
+*.test
+*.out
+*.mod
+*.sum
+
+# Binaries and build artifacts
+/bin/
+/pkg/
+/vendor/
+*.o
+*.a
+*.so
+*.dll
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Test coverage and profiling
+coverage.out
+*.cov
+*.prof
+
+# Go modules cache
+go.sum

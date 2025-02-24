@@ -1,0 +1,16 @@
+version: '3'
+
+tasks:
+  run:
+    desc: Run the main Go application
+    cmds:
+      - go run cmd/main.go
+
+  test:
+    desc: Run all Go tests and stop at first failure
+    cmds:
+      - go test ./... -v
+
+  generate-mocks:
+    cmds:
+      - mockery --all --output=./mocks --case underscore
